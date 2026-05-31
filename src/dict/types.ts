@@ -1,5 +1,5 @@
 export interface DictJoinOptions {
-  kvDelimeter?: string
-  entryDelimeter?: string
-  excludeNil?: boolean
+  kvDelimeter: string
+  entryDelimeter: string
+  excludeNil: boolean
 }

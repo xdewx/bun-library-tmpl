@@ -1,1 +1,1 @@
-bun run lint:fix && bun test
+npx lint-staged

@@ -5,10 +5,9 @@ import * as dict from './dict/index'
 import * as number from './number/index'
 
 export function version() {
+  console.warn(`${packageJson.name} version is ${packageJson.version}`)
   return packageJson.version
 }
-
-console.warn(`${packageJson.name} version is ${version()}`)
 
 export {
   browser,
